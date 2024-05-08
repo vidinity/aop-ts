@@ -1,0 +1,17 @@
+{
+  "name": "aop-ts",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vidinity/aop-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vidinity/aop-ts.git"
+  },
+  "description": "Aspect-Oriented Programming utilities with typed API",
+  "author": "Pawel Wojewoda <hi@powd.eu> (https://powd.eu/)",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}
