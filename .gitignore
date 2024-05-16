@@ -1,5 +1,5 @@
 /node_modules
-/npm
+/.npm
 
 # <-- Since this is a npm-workspace-based monorepo, allow only the root-level lock file:
 package-lock.json
