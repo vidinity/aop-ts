@@ -30,7 +30,7 @@ type ResultPlain<
     : never
   : never;
 
-type ResultAsync<
+export type ResultAsync<
   TDecoratee,
   TMethodName = ExtractMethodNames<TDecoratee>,
 > = TMethodName extends ExtractMethodNames<TDecoratee>
