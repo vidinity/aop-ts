@@ -21,7 +21,7 @@ export type Invocation<
     }
   : never;
 
-type ResultPlain<
+export type ResultPlain<
   TDecoratee,
   TMethodName = ExtractMethodNames<TDecoratee>,
 > = TMethodName extends ExtractMethodNames<TDecoratee>

@@ -1,10 +1,31 @@
-import type { Interceptor, Invocation, Result, ResultAsync } from './interception-types';
+import type {
+  Interceptor,
+  Invocation,
+  Result,
+  ResultAsync,
+  ResultPlain,
+} from './interception-types';
 
-export type AsyncInvocation<TDecoratee> = Omit<
+/**
+ * @experimental
+ */
+export type UnproceedableInvocation<TDecoratee> = Omit<
   Invocation<TDecoratee>,
   'proceed' | 'proceedWith'
-> & {
+>;
+
+/**
+ * @experimental
+ */
+export type AfterAsyncInvocation<TDecoratee> = UnproceedableInvocation<TDecoratee> & {
   result: ResultAsync<TDecoratee>;
+};
+
+/**
+ * @experimental
+ */
+export type AfterSyncInvocation<TDecoratee> = UnproceedableInvocation<TDecoratee> & {
+  result: ResultPlain<TDecoratee>;
 };
 
 /**
@@ -17,6 +38,7 @@ export class AsyncInterceptor<TDecoratee> implements Interceptor<TDecoratee> {
     const result = this.interceptAll(invocation);
 
     const isResultPromise = typeof (result as any)?.then === 'function';
+
     if (isResultPromise) {
       const resultAsync = result as ResultAsync<TDecoratee>;
       const asyncInvocation = {
@@ -25,18 +47,34 @@ export class AsyncInterceptor<TDecoratee> implements Interceptor<TDecoratee> {
         method,
         name,
         result: resultAsync,
-      } as AsyncInvocation<TDecoratee>;
-      return this.interceptAsync(asyncInvocation) as any;
+      } as AfterAsyncInvocation<TDecoratee>;
+      return this.interceptAfterAsync(asyncInvocation);
     }
 
-    return result;
+    const resultSync = result as ResultPlain<TDecoratee>;
+    const syncInvocation = {
+      args,
+      class: class_,
+      method,
+      name,
+      result: resultSync,
+    } as AfterSyncInvocation<TDecoratee>;
+    return this.interceptAfterSync(syncInvocation);
   }
 
-  interceptAll(invocation: Invocation<TDecoratee>): Result<TDecoratee> {
+  protected interceptAll(invocation: Invocation<TDecoratee>): Result<TDecoratee> {
     return invocation.proceed();
   }
 
-  interceptAsync(invocation: AsyncInvocation<TDecoratee>): ResultAsync<TDecoratee> {
+  protected interceptAfterAsync(
+    invocation: AfterAsyncInvocation<TDecoratee>,
+  ): ResultAsync<TDecoratee> {
+    return invocation.result;
+  }
+
+  protected interceptAfterSync(
+    invocation: AfterSyncInvocation<TDecoratee>,
+  ): ResultPlain<TDecoratee> {
     return invocation.result;
   }
 }
