@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="362px"
+   height="382px"
+   viewBox="-0.5 -0.5 362 382"
+   class="ge-export-svg-auto"
+   id="svg1155"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <defs
+     id="defs1091">
+    <style
+       type="text/css"
+       id="style1089">@media (prefers-color-scheme: dark) {
+svg.ge-export-svg-auto:not(mjx-container &gt; svg) { filter: invert(100%) hue-rotate(180deg); }
+svg.ge-export-svg-auto foreignObject img,
+svg.ge-export-svg-auto image:not(svg.ge-export-svg-auto switch image),
+svg.ge-export-svg-auto svg:not(mjx-container &gt; svg)
+{ filter: invert(100%) hue-rotate(180deg) }
+}</style>
+  </defs>
+  <g
+     id="g1153">
+    <g
+       id="g1095">
+      <rect
+         x="0"
+         y="0"
+         width="360"
+         height="380"
+         rx="14.4"
+         ry="14.4"
+         fill="none"
+         stroke="#7a7a7a"
+         stroke-dasharray="1 1"
+         pointer-events="all"
+         id="rect1093" />
+    </g>
+    <g
+       id="g1103">
+      <g
+         transform="translate(-0.5 -0.5)"
+         id="g1101">
+        <switch
+           id="switch1099">
+          <foreignObject
+             pointer-events="none"
+             width="100%"
+             height="100%"
+             requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+             style="overflow: visible; text-align: left;">
+            <xhtml:div
+               style="display: flex; align-items: unsafe flex-end; justify-content: unsafe center; width: 358px; height: 1px; padding-top: 360px; margin-left: 1px;">
+              <xhtml:div
+                 data-drawio-colors="color: rgb(0, 0, 0); "
+                 style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                <xhtml:div
+                   style="display: inline-block; font-size: 16px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                  <xhtml:font
+                     color="#7a7a7a">CurrencyConverterLogging</xhtml:font>
+                </xhtml:div>
+              </xhtml:div>
+            </xhtml:div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g
+       id="g1107">
+      <rect
+         x="29.44"
+         y="10.82"
+         width="300.37"
+         height="318.75"
+         rx="12.01"
+         ry="12.01"
+         fill="none"
+         stroke="#7a7a7a"
+         stroke-dasharray="1 1"
+         transform="rotate(90,179.63,170.2)"
+         pointer-events="all"
+         id="rect1105" />
+    </g>
+    <g
+       id="g1115">
+      <g
+         transform="translate(-0.5 -0.5)rotate(90 179.625 304.3800000000001)"
+         id="g1113">
+        <switch
+           id="switch1111">
+          <foreignObject
+             pointer-events="none"
+             width="100%"
+             height="100%"
+             requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+             style="overflow: visible; text-align: left;">
+            <xhtml:div
+               style="display: flex; align-items: unsafe center; justify-content: unsafe flex-end; width: 284px; height: 1px; padding-top: 304px; margin-left: -105px;">
+              <xhtml:div
+                 data-drawio-colors="color: rgb(0, 0, 0); "
+                 style="box-sizing: border-box; font-size: 0px; text-align: right;">
+                <xhtml:div
+                   style="display: inline-block; font-size: 16px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                  <xhtml:font
+                     color="#7a7a7a">...</xhtml:font>
+                </xhtml:div>
+              </xhtml:div>
+            </xhtml:div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g
+       id="g1119">
+      <rect
+         x="39"
+         y="40"
+         width="281"
+         height="235"
+         rx="11.75"
+         ry="11.75"
+         fill="none"
+         stroke="#7a7a7a"
+         stroke-dasharray="1 1"
+         pointer-events="all"
+         id="rect1117" />
+    </g>
+    <g
+       id="g1127">
+      <g
+         transform="translate(-0.5 -0.5)"
+         id="g1125">
+        <switch
+           id="switch1123">
+          <foreignObject
+             pointer-events="none"
+             width="100%"
+             height="100%"
+             requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+             style="overflow: visible; text-align: left;">
+            <xhtml:div
+               style="display: flex; align-items: unsafe flex-end; justify-content: unsafe center; width: 279px; height: 1px; padding-top: 255px; margin-left: 40px;">
+              <xhtml:div
+                 data-drawio-colors="color: rgb(0, 0, 0); "
+                 style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                <xhtml:div
+                   style="display: inline-block; font-size: 16px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                  <xhtml:font
+                     color="#7a7a7a">CurrencyConverterAuditing</xhtml:font>
+                </xhtml:div>
+              </xhtml:div>
+            </xhtml:div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g
+       id="g1131">
+      <rect
+         x="60"
+         y="60"
+         width="240"
+         height="160"
+         rx="9.6"
+         ry="9.6"
+         fill="none"
+         stroke="#7a7a7a"
+         stroke-dasharray="1 1"
+         pointer-events="all"
+         id="rect1129" />
+    </g>
+    <g
+       id="g1139">
+      <g
+         transform="translate(-0.5 -0.5)"
+         id="g1137">
+        <switch
+           id="switch1135">
+          <foreignObject
+             pointer-events="none"
+             width="100%"
+             height="100%"
+             requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+             style="overflow: visible; text-align: left;">
+            <xhtml:div
+               style="display: flex; align-items: unsafe flex-end; justify-content: unsafe center; width: 238px; height: 1px; padding-top: 200px; margin-left: 61px;">
+              <xhtml:div
+                 data-drawio-colors="color: rgb(0, 0, 0); "
+                 style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                <xhtml:div
+                   style="display: inline-block; font-size: 16px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                  <xhtml:font
+                     color="#7a7a7a">CurrencyConverterCaching</xhtml:font>
+                </xhtml:div>
+              </xhtml:div>
+            </xhtml:div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g
+       id="g1143">
+      <rect
+         x="80"
+         y="80"
+         width="200"
+         height="80"
+         rx="12"
+         ry="12"
+         fill="none"
+         stroke="rgb(0, 0, 0)"
+         pointer-events="all"
+         id="rect1141" />
+    </g>
+    <g
+       id="g1151">
+      <g
+         transform="translate(-0.5 -0.5)"
+         id="g1149">
+        <switch
+           id="switch1147">
+          <foreignObject
+             pointer-events="none"
+             width="100%"
+             height="100%"
+             requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+             style="overflow: visible; text-align: left;">
+            <xhtml:div
+               style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 198px; height: 1px; padding-top: 120px; margin-left: 81px;">
+              <xhtml:div
+                 data-drawio-colors="color: rgb(0, 0, 0); "
+                 style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                <xhtml:div
+                   style="display: inline-block; font-size: 16px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">CurrencyConverter</xhtml:div>
+              </xhtml:div>
+            </xhtml:div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+  </g>
+</svg>
